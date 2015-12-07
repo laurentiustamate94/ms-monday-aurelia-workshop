@@ -1,0 +1,16 @@
+﻿<template>
+    This is my very first Aurelia app !!
+
+    <form class="form-group" role="form" submit.delegate="register()" validate.bind="validation">
+
+        <label>Company Name<span class="required">*</span></label>
+        <input type="text" value.bind="companyName">
+
+        <br /><br /><br />
+
+        <label>Email<span class="required">*</span></label>
+        <input type="text" value.bind="email">
+
+        <button type="submit">Submit</button>
+    </form>
+</template>
